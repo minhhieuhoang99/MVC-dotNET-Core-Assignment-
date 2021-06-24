@@ -1,0 +1,50 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center;" ;>
+            <h2>Return list member who is male</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="GetMaleMember">Return list member who is male</a>
+        </div>
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center" ;>
+            <h2>Return a new list that contains Full Name only</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="GetFullName">Return a new list that contains Full Name only</a>
+        </div>
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center;" ;>
+            <h2>Return the oldest one based on “Age”</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="GetOldest">Return the oldest one based on “Age”</a>
+        </div>
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center" ;>
+            <h2>Return list of members who has birth year is 2000</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="YearOfBirth2000">Return list of members who has birth year is 2000</a>
+        </div>
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center">
+            <h2>Return list of members who has birth year < 2000</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="YearOfBirth2000down">Return list of members who has birth year < 2000</a>
+        </div>
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center">
+            <h2>Return list of members who has birth year > 2000</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="YearOfBirth2000up">Return list of members who has birth year >  2000</a>
+        </div>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+        <div style="width: 40%; background-color: pink; border-radius: 20px; margin: 20px; padding: 5px; text-align: center">
+            <h2>Download CSV file</h2>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rookies" asp-action="Csv">Return list csv file</a>
+        </div>
+    </div>
+</body>
+
+</html>
