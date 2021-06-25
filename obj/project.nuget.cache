@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jX1JqkflXmuEEfRCi5yEbtdboj38iFxF+bmUjOZbZtoIpNtiz914VMZHMU8R8UOfH/ju3VQJJFfhcqlxDV53TQ==",
+  "dgSpecHash": "gDFDK9FjjOdVbiT4ucJhwvBTr+QUDzGTSp21W4AAdU1NEk+86Q9S980O5CG1wKcUEbFbUtS+Te5OPSwgjCJKTw==",
   "success": true,
-  "projectFilePath": "D:\\NashTech\\dotNetMVC\\dotNetMVC.csproj",
+  "projectFilePath": "D:\\NashTech\\MVC-dotNET-Core-Assignment-\\dotNetMVC.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

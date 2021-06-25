@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\NashTech\\dotNetMVC\\dotNetMVC.csproj",
+      "projectUniqueName": "D:\\NashTech\\MVC-dotNET-Core-Assignment-\\dotNetMVC.csproj",
       "projectName": "dotNetMVC",
-      "projectPath": "D:\\NashTech\\dotNetMVC\\dotNetMVC.csproj",
+      "projectPath": "D:\\NashTech\\MVC-dotNET-Core-Assignment-\\dotNetMVC.csproj",
       "packagesPath": "C:\\Users\\hoang\\.nuget\\packages\\",
-      "outputPath": "D:\\NashTech\\dotNetMVC\\obj\\",
+      "outputPath": "D:\\NashTech\\MVC-dotNET-Core-Assignment-\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"

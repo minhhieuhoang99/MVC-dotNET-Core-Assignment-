@@ -51,6 +51,9 @@ namespace dotNetMVC
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllerRoute(
+                    name: "default",
+                    pattern: "NashTech/Rookies/{controller=Rookies}/{action=Index}/{id?}");
             });
         }
     }
